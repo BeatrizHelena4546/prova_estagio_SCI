@@ -3,10 +3,26 @@
 """
 nomes = []
 notas = []
+medias = []
 
-for i in range(3):
-    nome = input(f"Digite o nome do aluno {i+1}: ")
+while True:
+    nome = input('Digite o nome do aluno: ')
     nomes.append(nome)
+    
+    for i in range(4):
+        nota = float(input(f'Digite a {i+1}: '))
+        notas.append(nota)
+        
+    
+    print("Aluno", nome)
+    print("Media", )
+        
+    
+    opcao = input("Deseja encerrar? Digite 's' para sim ou 'n' para não: ")
+    
+    if opcao == "s":
+        break
+    
     
 
 
