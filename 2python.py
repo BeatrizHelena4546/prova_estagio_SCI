@@ -4,7 +4,7 @@
 ns = []
 
 for i in range(5):
-    n = int(input(f"Digite o {i+1}: "))
+    n = int(input(f"Digite o {i+1}º numero: "))
     ns.append(n)
 
 maior = max(ns)

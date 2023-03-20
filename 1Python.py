@@ -18,6 +18,6 @@ for n in ns:
 
 media = sum(ns) / len(ns)
 
-print("numeros pares: ", pares)
-print("numeros impares: ", impares)
+print("Numeros pares: ", pares)
+print("Numeros impares: ", impares)
 print("Media dos numeros: ", media)

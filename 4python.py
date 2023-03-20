@@ -1,5 +1,5 @@
 """
-    4ª questão - Prova SCI
+    4ª questão - Prova SCI 
 """
 
 vetor = [0] * 5

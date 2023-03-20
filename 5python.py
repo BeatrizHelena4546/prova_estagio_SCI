@@ -10,8 +10,9 @@ for i in range(3):
     nomes.append(nome)
     notas_aluno = []
     for j in range(4):
-        nota = float(input(f"Digite a {j+1} nota"))
-        notas.append(nota)
+        nota = float(input(f"Digite a {j+1} nota: "))
+        notas_aluno.append(nota)
+    notas.append(notas_aluno)
 
 medias_alunos = []
 for i in range(3):
@@ -21,7 +22,7 @@ for i in range(3):
     print("Aluno: ", nomes[i]," / Media: ", media)
 
 indice_maior_media = medias_alunos.index(max(medias_alunos))
-indice_menor_media = medias_alunos.index(max(medias_alunos))
+indice_menor_media = medias_alunos.index(min(medias_alunos))
 
 print("aluno com maior media: ", nomes[indice_maior_media])
 print("aluno com menor media: ", nomes[indice_menor_media])
